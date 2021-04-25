@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shorcut icon" href="./img/leonidasesteban.com.svg">
+    <title>Contactenos</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title" class="text-center">Contactenos</h1>
+            <p id="description" class="description text-center"><img class="center-img" src="./img/Adoptado.svg"
+                    alt="Adoptado"></p>
+            <p id="description" class="description text-center">
+                Desde <span class="italic-text">furry pet</span> queremos estar siempre encontacto!</p>
+        </header>
+        <form id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Nombre completo</label>
+                <input type="text" name="name" id="name" class="form-control required" placeholder="Nombres y Apellidos"
+                    required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" name="email" id="email" class="form-control required" placeholder="algo@email.com"
+                    required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number required" required>Celular</span></label>
+                <input type="number" name="phone" id="number" min="3000000000" max="3999999999" class="form-control"
+                    placeholder="Numero de contacto" />
+            </div>
+            <div class="form-group">
+                <p>Tipo de usuario</p>
+                <select id="dropdown" name="role" class="form-control required" required>
+                    <option disabled selected value>Elija el rol que más se ajusta a ti</option>
+                    <option value="new">Usuario nuevo</option>
+                    <option value="odd">Usuario antiguo</option>
+                    <option value="publication">Encontre una mascota abandonada</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Si elegiste <strong><span class="italic-text">Encontre una mascota abandonada</span></strong>, dinos de que clase es:
+                </p>
+                <label><input name="pet" value="dog" type="radio" class="input-radio" />Perro</label>
+                <label><input name="pet" value="cat" type="radio" class="input-radio" />Gato</label>
+            </div>
+
+            <div class="form-group">
+                <p>
+                    Tomale una foto a la mascota y compartela con nosotros:
+                </p>
+                <div id="files">
+                    <p>Sube las fotos</p>
+                    <input type="file" class="picture" name="picture" id="picture" multiple>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <p>Selecciona las caracteristicas de la mascota </p>
+                <label><input name="characteristics" value="jugueton" type="checkbox"
+                        class="input-checkbox" />Jugueton</label>
+                <label><input name="characteristics" value="cariñoso" type="checkbox"
+                        class="input-checkbox" />Cariñoso</label>
+                <label><input name="characteristics" value="inquieto" type="checkbox"
+                        class="input-checkbox" />Inquieto</label>
+                <label><input name="characteristics" value="mordelon" type="checkbox"
+                        class="input-checkbox" />Mordelón</label>
+                <label><input name="characteristics" value="calmado" type="checkbox"
+                        class="input-checkbox" />Calmado</label>
+            </div>
+
+            <div class="form-group">
+                <p>Dejanos tus comentarios</p>
+                <textarea id="comments" class="input-textarea" name="comment"
+                    placeholder="Dejas tus comentarios o descripciones ..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
