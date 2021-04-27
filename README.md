@@ -15,6 +15,6 @@
 
  > A continuación estan los repositorios de los principales proyectos desarrollados en el proceso de aprendizaje.
  
- <a href="https://github.com/luischdu/app-adopcion">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=luischdu&repo=app-adopcion&theme=react" />
+ <a href="https://github.com/luischdu/appAdopcion">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=luischdu&repo=appAdopcion&theme=react" />
 </a>
