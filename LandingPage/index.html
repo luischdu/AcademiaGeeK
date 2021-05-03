@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="shorcut icon"
+        href="https://cdn4.iconfinder.com/data/icons/chat-bots-blue-filled-color/300/34713265Untitled-3-512.png">
+    <title>CodeNow</title>
+</head>
+
+<body>
+
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img  id='header-img' src="./img/logo.png" alt="logo">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#Inicio">Inicio</a></li>
+                    <li><a class="nav-link" href="#video">Como trabajamos</a></li>
+                    <li><a class="nav-link" href="#Precio">Precio</a></li>
+                    <li><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1 id="Inicio">6ich</h1>
+            <section class="conteiner">
+                <article id="presentacion">
+                    <p>Apreende a programa de manera divertida y practica:</p>
+                    <iframe
+                        src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fgetmimo%2Fvideos%2F2475114069190158%2F&show_text=false&width=380"
+                        id="video" width="380" height="476" style="border:none;overflow:hidden" scrolling="no"
+                        frameborder="0" allowfullscreen="true"
+                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                        allowFullScreen="true"></iframe>
+                </article>
+                <article id="precios">
+
+                    <section id="Precio">
+                        <div class="product" id="Bg">
+                            <div class="level">Curso Principiante</div>
+                            <h2>$500.000 COP</h2>
+                            <ol>
+                                <li>CSS & HTML</li>
+                                <li>Programación imperactiva</li>
+                                <li>Bases de datos no relacionales</li>
+                            </ol>
+                            <button class="btn">Seleccionar</button>
+                        </div>
+                        <div class="product" id="In">
+                            <div class="level">Curso Intermedio</div>
+                            <h2>$1.000.000 COP</h2>
+                            <ol>
+                                <li>FrameWorks & API's</li>
+                                <li>Programación orientada a objetos</li>
+                                <li>Bases de datos relacionales</li>
+                            </ol>
+                            <button class="btn">Seleccionar</button>
+                        </div>
+                        <div class="product" id="Ad">
+                            <div class="level">Curso Avanzado</div>
+                            <h2>$1.500.000 COP</h2>
+                            <ol>
+                                <li>Metodos Avanzados</li>
+                                <li>Data Science</li>
+                                <li>Master UML</li>
+                            </ol>
+                            <button class="btn">Seleccionar</button>
+                        </div>
+                    </section>
+
+                </article>
+                <article id="contacto" class="contact">
+                    <p> Para recibir mayor informacion deja tus datos de contacto:</p>
+                    <form action=" https://www.freecodecamp.com/email-submit" id="form">
+                        <label for="name"><input type="text" id="name" placeholder="Nombre completo"></label>
+                        <label for="email"><input type="email" id="email" name="email"
+                                placeholder="algien@email.com"></label>
+                        <textarea name="comentarios" id="comentarios" placeholder="Escribenos tus inquietudes" cols="30"
+                            rows="10"></textarea>
+                        <input type="submit" value="Enviar" id="submit">
+                    </form>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+                <li><a href="#">Terminos y Condiciones</a></li>
+                <li><a href="#">Contactenos</a></li>
+            </ul>
+            <span>Creative Commons 2021, CodeNow</span>
+        </footer>
+
+</body>
+
+</html>
