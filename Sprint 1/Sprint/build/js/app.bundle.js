@@ -1,0 +1,1 @@
+window.onload=function(){var e=document.getElementById("contenedor_carga");e.style.visibility="hidden",e.style.opacity="0"};

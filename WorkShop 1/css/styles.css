@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css");
+
+/* *{
+    box-sizing: border-box;
+} */
+
+.rounded{
+    padding: 2%;
+}
+.img-central{
+  width:70%;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+#footer-banner{
+    margin-top: 20%;
+}
+
+.titulo-nav {
+    color: #FF4C13;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    ;
+}
+
+.linea img {
+    width: 9vw;
+}
+
+.size-btn button {
+    border-radius: 100%;
+width: 44px;
+height: 44px;
+background-color: white;
+border: white;
+}
+
+.size-btn button:hover{
+    border: solid black 1px;
+}
+.size-btn button:checked{
+    border: solid black 1px;
+}
+
+.btn-add {
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    color: white;
+
+    /* black */
+
+    background: #1D1D1D;
+    border-radius: 4px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+    transition: all 1ms;
+}
+
+.btn-buy {
+    /* Auto Layout */
+
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin-top: 1px;
+
+
+    /* blue */
+
+    background: #4276FB;
+    border-radius: 4px;
+
+    /* Inside Auto Layout */
+
+    order: 1;
+    flex-grow: 0;
+    margin: 2px;
+    transition: all 1ms;
+    
+}
+
+
+.btn-add:hover{
+    background-color: white;
+    color:#1D1D1D;
+    border: #1D1D1D 2px solid;
+    transform: scale(1.01);
+}
+
+.btn-buy:hover{
+    background-color: white;
+    color: #4276FB;
+    border: #4276FB 2px solid;
+    
+    transform: scale(1.01);
+}
+
+
+@media (max-width:768px) {
+    .imgcaru {
+        visibility: visible;
+    }
+
+    .imgpc {
+        visibility: hidden;
+    }
+    .navbar{
+        align-items: end;
+    }
+}
+
+@media (max-width:768px) {
+     .imgpc {
+        display: none;
+    }
+    .eline{
+        display: none;
+    }
+    .img-central{
+        display: none;
+    }
+}
+
+@media (min-width:769px) {
+    .imgcaru {
+        visibility: hidden;
+    }
+
+    .imgpc {
+        visibility: visible;
+
+    }
+}
+
+@media (min-width:769px) {
+    .imgcaru {
+            display: none;
+    }
+}

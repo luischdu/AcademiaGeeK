@@ -1,0 +1,28 @@
+{
+  "restaurante": [
+    {
+      "id": "1",
+      "nombre": "Sopa de arroz",
+      "precio": "5000",
+      "Categoria": "Sopas"
+    },
+    {
+      "id": "2",
+      "nombre": "Ajiaco",
+      "precio": "8000",
+      "Categoria": "Sopas"
+    },
+    {
+      "id": "3",
+      "nombre": "Ensalada griega",
+      "precio": "9000",
+      "Categoria": "Ensalada"
+    },
+    {
+      "id": "4",
+      "nombre": "Hamburgesa",
+      "precio": "15000",
+      "Categoria": "Rapida"
+    }
+  ]
+}

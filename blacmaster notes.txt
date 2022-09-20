@@ -1,0 +1,54 @@
+function App() {
+  const url =
+    "https://api.themoviedb.org/3/configuration?api_key=ed4ef444cf09035de37c391527885e55&language=es";
+  let configData = null;
+  let baseImageURL = null;
+
+  let runSearch = (keyWord = "jaws") => {
+    let url = `https://api.themoviedb.org/3/search/movie?api_key=ed4ef444cf09035de37c391527885e55&${keyWord}`;
+    fetch(url)
+      .then((result) => {
+        return result.json();
+      })
+      .then((data) => {
+        console.log(data);
+      })
+      .catch(function (error) {
+        alert(error);
+      });
+  };
+
+  const db = () => {
+    fetch(url)
+      .then((result) => {
+        return result.json();
+      })
+      .then((data) => {
+        console.log(data);
+        configData = data.images;
+      })
+      .catch(function (error) {
+        alert(error);
+      });
+  };
+
+  return (
+    <div className="App">
+      <h1>Hola</h1>
+      <button onClick={db}> get data</button>
+      <button onClick={runSearch}> get movie</button>
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+
+  "homepage": "https://luischdu.github.io/legion-geek",
+
+
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"

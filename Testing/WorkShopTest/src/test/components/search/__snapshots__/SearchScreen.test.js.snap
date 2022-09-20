@@ -1,0 +1,392 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en SearchScreen Debe coincidir el valor buscador y el 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="flash"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="card ms-3 animate__animated animate__fadeIn"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          />
+          <div
+            className="col-md-8"
+          >
+            <img
+              alt="Flash"
+              className="card-img"
+              src="./assets/heroes/dc-flash.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                 
+                Flash
+                 
+              </h5>
+              <p
+                className="card-text"
+              >
+                 
+                Jay Garrick
+                 
+              </p>
+              <p
+                className="card-text-characters"
+              >
+                 
+                Jay Garrick, Barry Allen, Wally West, Bart Allen
+                 
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Flash Comics #1
+                   
+                </small>
+              </p>
+              <a
+                href="/hero/dc-flash"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearchScreen Debe coincidir el valor buscador y la solicitud 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="flash"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="card ms-3 animate__animated animate__fadeIn"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          />
+          <div
+            className="col-md-8"
+          >
+            <img
+              alt="Flash"
+              className="card-img"
+              src="./assets/heroes/dc-flash.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                 
+                Flash
+                 
+              </h5>
+              <p
+                className="card-text"
+              >
+                 
+                Jay Garrick
+                 
+              </p>
+              <p
+                className="card-text-characters"
+              >
+                 
+                Jay Garrick, Barry Allen, Wally West, Bart Allen
+                 
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Flash Comics #1
+                   
+                </small>
+              </p>
+              <a
+                href="/hero/dc-flash"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearchScreen Mostrar valor inicial 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Search a hero
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Pruebas en SearchScreen debe de mostrar a Batman y el input con el valor del queryString 1`] = `
+<div>
+  <h1>
+    Search Screen
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <h4>
+         Search Form 
+      </h4>
+      <hr />
+      <form
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="form-control"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Find your hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="btn m-1 btn-block btn-outline-primary"
+          type="submit"
+        >
+          Search...
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+         Results 
+      </h4>
+      <hr />
+      <div
+        className="card ms-3 animate__animated animate__fadeIn"
+        style={
+          Object {
+            "maxWidth": 540,
+          }
+        }
+      >
+        <div
+          className="row no-gutters"
+        >
+          <div
+            className="col-md-4"
+          />
+          <div
+            className="col-md-8"
+          >
+            <img
+              alt="Batman"
+              className="card-img"
+              src="./assets/heroes/dc-batman.jpg"
+            />
+            <div
+              className="card-body"
+            >
+              <h5
+                className="card-title"
+              >
+                 
+                Batman
+                 
+              </h5>
+              <p
+                className="card-text"
+              >
+                 
+                Bruce Wayne
+                 
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                   
+                  Detective Comics #27
+                   
+                </small>
+              </p>
+              <a
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                Más...
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

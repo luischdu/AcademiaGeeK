@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/legion-geek/static/css/main.871ba82a.chunk.css",
+    "main.js": "/legion-geek/static/js/main.d3759a28.chunk.js",
+    "main.js.map": "/legion-geek/static/js/main.d3759a28.chunk.js.map",
+    "runtime-main.js": "/legion-geek/static/js/runtime-main.dbf642b1.js",
+    "runtime-main.js.map": "/legion-geek/static/js/runtime-main.dbf642b1.js.map",
+    "static/css/2.a2032d84.chunk.css": "/legion-geek/static/css/2.a2032d84.chunk.css",
+    "static/js/2.41c8ce77.chunk.js": "/legion-geek/static/js/2.41c8ce77.chunk.js",
+    "static/js/2.41c8ce77.chunk.js.map": "/legion-geek/static/js/2.41c8ce77.chunk.js.map",
+    "index.html": "/legion-geek/index.html",
+    "static/css/2.a2032d84.chunk.css.map": "/legion-geek/static/css/2.a2032d84.chunk.css.map",
+    "static/css/main.871ba82a.chunk.css.map": "/legion-geek/static/css/main.871ba82a.chunk.css.map",
+    "static/js/2.41c8ce77.chunk.js.LICENSE.txt": "/legion-geek/static/js/2.41c8ce77.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dbf642b1.js",
+    "static/css/2.a2032d84.chunk.css",
+    "static/js/2.41c8ce77.chunk.js",
+    "static/css/main.871ba82a.chunk.css",
+    "static/js/main.d3759a28.chunk.js"
+  ]
+}

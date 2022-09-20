@@ -58,11 +58,28 @@ window.addEventListener('load', e => {
     console.log(CICLISTAS)
 })
 
+<<<<<<< HEAD
 /*
 document.querySelector("#btn_adicionar_ciclista").addEventListener('click', e => {
     console.log(e)
     e.preventDefault()
 })*/
+=======
+/* guardar ciclista */
+
+document.querySelector("#btn-guardar-ciclista").addEventListener('click', e => {
+    e.preventDefault()
+
+    if (document.querySelector("#frm-ciclista").checkValidity) {
+        
+    } else {
+        console.log('Error!');
+    }
+
+})
+
+/* Adicionar ciclista */
+>>>>>>> ae4435e (academia geek proyectos)
 
 document.querySelector("#frm-adicionar-ciclista").addEventListener('submit', e => {
     console.log(e);

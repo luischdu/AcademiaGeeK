@@ -1,0 +1,616 @@
+{
+  "citas": [
+    {
+      "id": 1,
+      "cita": "La vida no se trata de obtener y tener, se trata de dar y ser",
+      "autor": "Kevin Kruse",
+      "color": "#fd9744"
+    },
+    {
+      "id": 2,
+      "cita": "Todo lo que la mente del hombre pueda concebir y creer, puede lograr",
+      "autor": "Napoleon Hill",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 3,
+      "cita": "No te esfuerces por ser un éxito, sino por ser valioso",
+      "autor": "Albert Einstein",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 4,
+      "cita": "Dos caminos se bifurcaban en un bosque, y yo, yo tomé el menos transitado, y eso ha marcado la diferencia",
+      "autor": "Robert Frost",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 5,
+      "cita": "Atribuyo mi éxito a esto: nunca di ni acepté ninguna excusa",
+      "autor": "Florence Nightingale",
+      "color": "#FB6964"
+    },
+    {
+      "id": 6,
+      "cita": "Fallas el 100% de las tomas que no tomas",
+      "autor": "Wayne Gretzky",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 7,
+      "cita": "He fallado más de 9000 tiros en mi carrera. He perdido casi 300 juegos. 26 veces me han confiado para hacer el tiro ganador del juego y he fallado. He fallado una y otra y otra vez otra vez en mi vida. Y es por eso que tengo éxito. ",
+      "autor": "Michael Jordan",
+      "color": "#f39c12"
+    },
+    {
+      "id": 8,
+      "cita": "Lo más difícil es la decisión de actuar, el resto es mera tenacidad",
+      "autor": "Amelia Earhart",
+      "color": "#326496"
+    },
+    {
+      "id": 9,
+      "cita": "Cada strike me acerca al próximo jonrón",
+      "autor": "Babe Ruth",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 10,
+      "cita": "La definición de propósito es el punto de partida de todo logro.",
+      "autor": "W. Clement Stone",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 11,
+      "cita": "Debemos equilibrar el consumo conspicuo con el capitalismo consciente",
+      "autor": "Kevin Kruse",
+      "color": "#73A857"
+    },
+    {
+      "id": 12,
+      "cita": "La vida es lo que te pasa mientras estás ocupado haciendo otros planes",
+      "autor": "John Lennon",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 13,
+      "cita": "Nos convertimos en lo que pensamos",
+      "autor": "Earl Nightingale",
+      "color": "#fd9744"
+    },
+    {
+      "id": 14,
+      "cita": "Dentro de veinte años estarás más decepcionado por las cosas que no hiciste que por las que sí hiciste, así que tira de las amarras, navega lejos de puerto seguro, atrapa los vientos alisios en tus velas . Explora, sueña, descubre. ",
+      "autor": "Mark Twain",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 15,
+      "cita": "La vida es el 10% de lo que me pasa y el 90% de cómo reacciono",
+      "autor": "Charles Swindoll",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 16,
+      "cita": "La forma más común en que las personas renuncian a su poder es pensando que no tienen ninguno",
+      "autor": "Alice Walker",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 17,
+      "cita": "La mente lo es todo. En lo que crees que te conviertes.",
+      "autor": "Buddha",
+      "color": "#FB6964"
+    },
+    {
+      "id": 18,
+      "cita": "El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora",
+      "autor": "Proverbio chino",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 19,
+      "cita": "No vale la pena vivir una vida sin examinar",
+      "autor": "Socrates",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 20,
+      "cita": "El ochenta por ciento del éxito está apareciendo",
+      "autor": "Woody Allen",
+      "color": "#f39c12"
+    },
+    {
+      "id": 21,
+      "cita": "Tu tiempo es limitado, así que no lo pierdas viviendo la vida de otra persona",
+      "autor": "Steve Jobs",
+      "color": "#326496"
+    },
+    {
+      "id": 22,
+      "cita": "Ganar no lo es todo, pero querer ganar sí lo es",
+      "autor": "Vince Lombardi",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 23,
+      "cita": "No soy un producto de mis circunstancias. Soy un producto de mis decisiones",
+      "autor": "Stephen Covey",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 24,
+      "cita": "Todo niño es un artista. El problema es cómo seguir siendo un artista una vez que crezca",
+      "autor": "Pablo Picasso",
+      "color": "#73A857"
+    },
+    {
+      "id": 25,
+      "cita": "Nunca puedes cruzar el océano hasta que tengas el coraje de perder de vista la orilla",
+      "autor": "Christopher Columbus",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 26,
+      "cita": "Aprendí que la gente olvidará lo que dijiste, la gente olvidará lo que hiciste, pero la gente nunca olvidará cómo los hiciste sentir",
+      "autor": "Maya Angelou",
+      "color": "#fd9744"
+    },
+    {
+      "id": 27,
+      "cita": "O corre el día o el día corre a usted.",
+      "autor": "Jim Rohn",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 28,
+      "cita": "Ya sea que crea que puede o cree que no, tiene razón",
+      "autor": "Henry Ford",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 29,
+      "cita": "Los dos días más importantes de tu vida son el día en que naciste y el día en que descubres por qué.",
+      "autor": "Mark Twain",
+      "color": "#FB6964"
+    },
+    {
+      "id": 30,
+      "cita": "Todo lo que puedas hacer, o soñar que puedas, comienza. La audacia tiene genio, poder y magia",
+      "autor": "Johann Wolfgang von Goethe",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 31,
+      "cita": "La mejor venganza es el éxito masivo",
+      "autor": "Frank Sinatra",
+      "color": "#f39c12"
+    },
+    {
+      "id": 32,
+      "cita": "La gente suele decir que la motivación no dura. Bueno, tampoco el baño. Por eso lo recomendamos a diario.",
+      "autor": "Zig Ziglar",
+      "color": "#326496"
+    },
+    {
+      "id": 33,
+      "cita": "La vida se encoge o se expande en proporción al valor de uno.",
+      "autor": "Anais Nin",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 34,
+      "cita": "Si escuchas una voz dentro de ti que dice \"no puedes pintar\", entonces pinta y esa voz será silenciada.",
+      "autor": "Vincent Van Gogh",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 35,
+      "cita": "Solo hay una forma de evitar las críticas: no hacer nada, no decir nada y no ser nada",
+      "autor": "Aristóteles",
+      "color": "#73A857"
+    },
+    {
+      "id": 36,
+      "cita": "Pide y se te dará; busca, y encontrarás; llama y se te abrirá la puerta.",
+      "autor": "Jesús",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 37,
+      "cita": "La única persona en la que estás destinado a convertirte es la persona que decides ser",
+      "autor": "Ralph Waldo Emerson",
+      "color": "#fd9744"
+    },
+    {
+      "id": 38,
+      "cita": "Ve con confianza en la dirección de tus sueños. Vive la vida que has imaginado",
+      "autor": "Henry David Thoreau",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 39,
+      "cita": "Cuando me presente ante Dios al final de mi vida, espero que no me quede ni un ápice de talento y podría decir, usé todo lo que me diste",
+      "autor": "Erma Bombeck ",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 40,
+      "cita": "Pocas cosas pueden ayudar más a un individuo que responsabilizarlo y hacerle saber que confía en él",
+      "autor": "Booker T. Washington",
+      "color": "#FB6964"
+    },
+    {
+      "id": 41,
+      "cita": "Ciertas cosas te llaman la atención, pero busca solo aquellas que capturan el corazón.",
+      "autor": "Ancient Indian Proverbio",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 42,
+      "cita": "Cree que puedes y estás a mitad de camino",
+      "autor": "Theodore Roosevelt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 43,
+      "cita": "Todo lo que siempre has querido está del otro lado del miedo",
+      "autor": "George Addair",
+      "color": "#f39c12"
+    },
+    {
+      "id": 44,
+      "cita": "Podemos perdonar fácilmente a un niño que le teme a la oscuridad; la verdadera tragedia de la vida es cuando los hombres le temen a la luz",
+      "autor": "Platón",
+      "color": "#326496"
+    },
+    {
+      "id": 45,
+      "cita": "Enséñale a tu lengua a decir: \"No sé\", y progresarás.",
+      "autor": "Maimónides",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 46,
+      "cita": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas",
+      "autor": "Arthur Ashe",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 47,
+      "cita": "Cuando tenía 5 años, mi madre siempre me decía que la felicidad era la clave de la vida. Cuando iba a la escuela, me preguntaban qué quería ser de mayor. Escribí 'feliz' . Me dijeron que no entendía la tarea y yo les dije que no entendían la vida. ",
+      "autor": "John Lennon",
+      "color": "#73A857"
+    },
+    {
+      "id": 48,
+      "cita": "Cae siete veces y levántate ocho.",
+      "autor": "Proverbio japonés",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 49,
+      "cita": "Cuando una puerta de la felicidad se cierra, otra se abre, pero a menudo miramos tanto tiempo la puerta cerrada que no vemos la que se nos ha abierto",
+      "autor": "Helen Keller",
+      "color": "#fd9744"
+    },
+    {
+      "id": 50,
+      "cita": "Todo tiene belleza, pero no todos pueden ver.",
+      "autor": "Confucio",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 51,
+      "cita": "Qué maravilloso es que nadie necesite esperar un solo momento antes de comenzar a mejorar el mundo",
+      "autor": "Anne Frank",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 52,
+      "cita": "Cuando dejo ir lo que soy, me convierto en lo que podría ser",
+      "autor": "Lao Tzu",
+      "color": "#FB6964"
+    },
+    {
+      "id": 53,
+      "cita": "La vida no se mide por la cantidad de respiraciones que tomamos, sino por los momentos que nos dejan sin aliento",
+      "autor": "Maya Angelou",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 54,
+      "cita": "La felicidad no es algo prefabricado. Viene de tus propias acciones.",
+      "autor": "Dalai Lama",
+      "color": "#326496"
+    },
+    {
+      "id": 55,
+      "cita": "Si te ofrecen un asiento en un cohete, ¡no preguntes qué asiento! Simplemente súbete.",
+      "autor": "Sheryl Sandberg",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 56,
+      "cita": "Primero, tenga un ideal práctico claro y definido; una meta, un objetivo. Segundo, tenga los medios necesarios para lograr sus fines; sabiduría, dinero, materiales y métodos. Tercero, ajuste todos sus medios para ese fin . ",
+      "autor": "Aristóteles",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 57,
+      "cita": "Si el viento no te sirve, ponte a remos",
+      "autor": "Proverbio latino",
+      "color": "#73A857"
+    },
+    {
+      "id": 58,
+      "cita": "No puedes caerte si no escalas. Pero no hay alegría en vivir toda tu vida en el suelo.",
+      "autor": "Desconocido",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 59,
+      "cita": "Debemos creer que estamos dotados para algo, y que esto, a cualquier precio, debe lograrse",
+      "autor": "Marie Curie",
+      "color": "#fd9744"
+    },
+    {
+      "id": 60,
+      "cita": "Demasiados de nosotros no estamos viviendo nuestros sueños porque estamos viviendo nuestros miedos",
+      "autor": "Les Brown",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 61,
+      "cita": "Los desafíos son los que hacen que la vida sea interesante y superarlos es lo que hace que la vida tenga sentido",
+      "autor": "Joshua J. Marine",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 62,
+      "cita": "Si quieres elevarte a ti mismo, eleva a alguien más",
+      "autor": "Booker T. Washington",
+      "color": "#FB6964"
+    },
+    {
+      "id": 63,
+      "cita": "Me ha impresionado la urgencia de hacer. Saber no es suficiente; debemos aplicar. Estar dispuesto no es suficiente; debemos hacer",
+      "autor": "Leonardo da Vinci",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 64,
+      "cita": "Las limitaciones viven solo en nuestras mentes. Pero si usamos nuestra imaginación, nuestras posibilidades se vuelven ilimitadas.",
+      "autor": "Jamie Paolinetti",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 65,
+      "cita": "Tomas tu vida en tus propias manos, ¿y qué pasa? Algo terrible, nadie a quien culpar.",
+      "autor": "Erica Jong",
+      "color": "#f39c12"
+    },
+    {
+      "id": 66,
+      "cita": "¿Qué es el dinero? Un hombre es un éxito si se levanta por la mañana y se acuesta por la noche y en el medio hace lo que quiere hacer",
+      "autor": "Bob Dylan",
+      "color": "#326496"
+    },
+    {
+      "id": 67,
+      "cita": "No fallé la prueba. Acabo de encontrar 100 formas de hacerlo mal",
+      "autor": "Benjamin Franklin",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 68,
+      "cita": "Para tener éxito, su deseo de éxito debe ser mayor que su miedo al fracaso",
+      "autor": "Bill Cosby",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 69,
+      "cita": "Una persona que nunca cometió un error nunca intentó nada nuevo",
+      "autor": "Albert Einstein",
+      "color": "#73A857"
+    },
+    {
+      "id": 70,
+      "cita": "La persona que dice que no se puede hacer no debe interrumpir a la persona que lo está haciendo",
+      "autor": "Proverbio chino",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 71,
+      "cita": "No hay atascos a lo largo de la milla extra.",
+      "autor": "Roger Staubach",
+      "color": "#fd9744"
+    },
+    {
+      "id": 72,
+      "cita": "Nunca es demasiado tarde para ser lo que podrías haber sido",
+      "autor": "George Eliot",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 73,
+      "cita": "Te conviertes en lo que crees",
+      "autor": "Oprah Winfrey",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 74,
+      "cita": "Prefiero morir de pasión que de aburrimiento",
+      "autor": "Vincent van Gogh",
+      "color": "#FB6964"
+    },
+    {
+      "id": 75,
+      "cita": "Un hombre verdaderamente rico es aquel cuyos hijos corren a sus brazos cuando sus manos están vacías",
+      "autor": "Unknown",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 76,
+      "cita": "No es lo que haces por tus hijos, sino lo que les has enseñado a hacer por sí mismos, lo que los convertirá en seres humanos exitosos",
+      "autor": "Ann Landers",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 77,
+      "cita": "Si quieres que tus hijos salgan bien, pasa el doble de tiempo con ellos y la mitad de dinero",
+      "autor": "Abigail Van Buren",
+      "color": "#f39c12"
+    },
+    {
+      "id": 78,
+      "cita": "Construye tus propios sueños, o alguien más te contratará para que construyas los suyos",
+      "autor": "Farrah Gray",
+      "color": "#326496"
+    },
+    {
+      "id": 79,
+      "cita": "Las batallas que cuentan no son las de las medallas de oro. Las luchas dentro de ti, las batallas invisibles dentro de todos nosotros, ahí es donde está.",
+      "autor": "Jesse Owens",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 80,
+      "cita": "La educación cuesta dinero. Pero también lo hace la ignorancia",
+      "autor": "Sir Claus Moser",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 81,
+      "cita": "He aprendido a lo largo de los años que cuando uno está decidido, esto disminuye el miedo.",
+      "autor": "Rosa Parks",
+      "color": "#73A857"
+    },
+    {
+      "id": 82,
+      "cita": "No importa lo lento que vayas siempre que no te detengas",
+      "autor": "Confucius",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 83,
+      "cita": "Si miras lo que tienes en la vida, siempre tendrás más. Si miras lo que no tienes en la vida, nunca tendrás suficiente",
+      "autor": "Oprah Winfrey ",
+      "color": "#fd9744"
+    },
+    {
+      "id": 84,
+      "cita": "Recuerda que no conseguir lo que quieres es a veces un maravilloso golpe de suerte",
+      "autor": "Dalai Lama",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 85,
+      "cita": "No puedes gastar la creatividad. Cuanto más uses, más tendrás",
+      "autor": "Maya Angelou",
+      "color": "#0c7cbd"
+    },
+    {
+      "id": 86,
+      "cita": "Sueña en grande y atrévete a fracasar",
+      "autor": "Norman Vaughan",
+      "color": "#FB6964"
+    },
+    {
+      "id": 87,
+      "cita": "Nuestras vidas comienzan a terminar el día en que guardamos silencio sobre las cosas que importan",
+      "autor": "Martin Luther King Jr.",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 88,
+      "cita": "Haz lo que puedas, donde estés, con lo que tengas",
+      "autor": "Teddy Roosevelt",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 89,
+      "cita": "Si haces lo que siempre has hecho, obtendrás lo que siempre obtuviste",
+      "autor": "Tony Robbins",
+      "color": "#f39c12"
+    },
+    {
+      "id": 90,
+      "cita": "Después de todo, soñar es una forma de planificación",
+      "autor": "Gloria Steinem",
+      "color": "#326496"
+    },
+    {
+      "id": 91,
+      "cita": "Es tu lugar en el mundo; es tu vida. Sigue y haz todo lo que puedas con él, y haz que sea la vida que quieres vivir",
+      "autor": "Mae Jemison",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 92,
+      "cita": "Puede que te decepcione si fallas, pero estás condenado si no lo intentas",
+      "autor": "Beverly Sills",
+      "color": "#6ee9d0"
+    },
+    {
+      "id": 93,
+      "cita": "Recuerda que nadie puede hacerte sentir inferior sin tu consentimiento",
+      "autor": "Eleanor Roosevelt",
+      "color": "#4fbb7c"
+    },
+    {
+      "id": 94,
+      "cita": "La vida es lo que la hacemos, siempre ha sido, siempre será.",
+      "autor": "Grandma Moses",
+      "color": "#326496"
+    },
+    {
+      "id": 95,
+      "cita": "La pregunta no es quién me va a dejar, sino quién me va a detener",
+      "autor": "Ayn Rand",
+      "color": "#f39c12"
+    },
+    {
+      "id": 96,
+      "cita": "Cuando todo parezca ir en tu contra, recuerda que el avión despega contra el viento, no con él",
+      "autor": "Henry Ford",
+      "color": "#e74c3c"
+    },
+    {
+      "id": 97,
+      "cita": "No son los años de tu vida lo que cuenta. Es la vida de tus años",
+      "autor": "Abraham Lincoln",
+      "color": "#9b59b6"
+    },
+    {
+      "id": 98,
+      "cita": "Cambia tus pensamientos y cambiarás tu mundo.",
+      "autor": "Norman Vincent Peale",
+      "color": "#FB6964"
+    },
+    {
+      "id": 99,
+      "cita": "Escribe algo que valga la pena leer o haz algo que valga la pena escribir",
+      "autor": "Benjamin Franklin",
+      "color": "#9c5bda"
+    },
+    {
+      "id": 100,
+      "cita": "Nada es imposible, la palabra misma dice, \"¡Soy posible!\"",
+      "autor": "Audrey Hepburn",
+      "color": "#fd9744"
+    },
+    {
+      "id": 101,
+      "cita": "La única manera de hacer un gran trabajo es amar lo que haces",
+      "autor": "Steve Jobs",
+      "color": "#77B1A9"
+    },
+    {
+      "id": 102,
+      "cita": "Si puedes soñarlo, puedes lograrlo",
+      "autor": "Zig Ziglar",
+      "color": "#73A857"
+    }
+  ]
+}

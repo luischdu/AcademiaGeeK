@@ -1,0 +1,94 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: white;
+    --black: #0E172C;
+    --primary: #FEC7D7;
+    --secondary: #A786DF;
+    --tertiary: #D9D4E7;
+    --green: #85D1CE;
+    --blue: #91C1D7;
+    --grey: #535353;
+}
+
+/* Animacion */
+
+#contenedor_carga {
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    transition: all 2s ease;
+    z-index: 10000;
+}
+
+#carga {
+    background-image: url(./img/leonidasesteban.com.svg);
+    background-color: var(--primary);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: aumentar 1.5s alternate;
+    -o-animation: aumentar 1.5s alternate;
+    animation: aumentar 1.5s alternate;
+}
+
+@keyframes aumentar {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(2);
+    }
+
+}
+
+
+/* body */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background: var(--primary);
+    display: flex;
+}
+
+
+
+.main {
+    margin: 4% auto;
+}
+
+/* Scene 1 */
+
+.scene1 { 
+    z-index: -1;
+}
+
+
+/* media querys */
+
+@media (min-width: 576px) {
+    .contenedor {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contenedor {
+        max-width: 720px;
+    }
+}
